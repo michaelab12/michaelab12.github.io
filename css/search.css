@@ -1,0 +1,25 @@
+*{
+    background-color: #f2f2f2;
+ }
+
+
+ ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+  }
+
+ li{
+    font-size: small;
+    padding-bottom: 5px;
+ }
+ .pageResults{
+    padding: 20px;
+ }
+ #moreResults{
+    display: flex;
+ }
+
+ #result{
+    font-size: large;
+    padding-left: 20px;
+ }
