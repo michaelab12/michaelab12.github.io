@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/cardPage.css">
+    <script src="../js/cardPage.js"></script>
+    <script type="text/javascript">
+        // Call init once the webpage has loaded
+        window.onload = init;
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudo Scryfall</title>
+</head>
+<body>
+    <!-- use divs to seperate each part so javascript can get them individually -->
+    <div id="mainBody">
+        <h1 id="cardName">placeHolder</h1>
+        <div class ="image description">
+            <div  id="cardImage"></div>
+                <!-- box used to hold card relevant info -->
+                <div class="info" id="textInfo">
+                    <div class="textDesc" id="typeLine"></div>
+                    <div class="textDesc" id="description"></div>
+                    <div class="textDesc" id="powerToughness"></div>
+                    <div class = "textDesc" id="buyLinks"></div>
+                </div>
+                <div class="info" id="rulings">test rulings</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
